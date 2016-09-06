@@ -143,7 +143,7 @@ class App extends Component {
           <div className="Section-subtitle">I’m not a “hacker”, can I still participate?</div>
           <div className="Section-text">Students of all skill levels are encouraged to attend, even if you’ve never written a line of code! Creative individuals of all kinds are welcome to apply — such as designers, ECE majors, statistics, etc. The only requirement is your attitude to learn!</div>
           <div className="Section-subtitle">You didn’t answer my question!</div>
-          <div className="Section-text">Well, that isn’t a question. But if you have any questions on concerns not covered here, please contact alrao@andrew.cmu.edu or aromanof@andrew.cmu.edu.</div>
+          <div className="Section-text">Well, that isn’t a question. But if you have any questions on concerns not covered here, please contact alrao@andrew or aromanof@andrew.</div>
         </div>
         <div className="Spacer"/>
         <div className="Footer">

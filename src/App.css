@@ -122,7 +122,7 @@ a {
   }
 
   .cta-title {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 20px;
   }
 
@@ -190,7 +190,12 @@ a {
   }
 
   .cta-subtitle {
-    align-self: auto;
+    /*align-self: auto;*/
+    font-size: 32px;
+  }
+
+  .btn {
+    font-size: 28px;
   }
 
   .cta-buttons {
@@ -239,6 +244,7 @@ a {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
+  max-width: 90%;
 }
 
 .Spacer {
@@ -261,7 +267,7 @@ a {
 @media (max-width: 1000px) {
 
   .Spacer {
-    height: 46vw;
+    height: 54vw;
   }
 
   .Footer {
@@ -273,7 +279,7 @@ a {
     left: 0;
     /*right: 0;*/
     /*bottom: 175px;*/
-    bottom: 38vw;
+    bottom: 42vw;
     justify-content: center;
 
     /*justify-content: flex-start;*/

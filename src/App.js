@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Logo from './logo.png'
+import Friday from './friday.png'
+import Saturday from './saturday.png'
 
 import IMC from './sponsors/imc.svg'
 import Google from './sponsors/google.svg'
@@ -104,7 +106,9 @@ class App extends Component {
           <a name="schedule"></a>
           <div className="Section-title">Schedule</div>
           <div className="Schedules">
-            <Schedule day="Friday" events={[
+            <img src={Friday}/>
+            <img src={Saturday}/>
+            {/* <Schedule day="Friday" events={[
               ['6:00 pm', 'check-in begins'],
               ['7:00 pm', 'opening talks + dinner'],
               ['7:45 pm', 'hacking begins!'],
@@ -117,7 +121,7 @@ class App extends Component {
               ['6:00 pm', 'hacking ends + dinner'],
               ['9:00 pm', 'everyone presents!'],
 
-            ]}/>
+            ]}/> */}
           </div>
         </div>
         <div className="Section">

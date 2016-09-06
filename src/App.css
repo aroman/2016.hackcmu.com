@@ -298,14 +298,24 @@ a {
 }
 
 .Schedules {
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
+.Schedules > img {
+  width: 405px;
+  height: 268px;
+}
+
 @media (max-width: 1000px) {
   .Schedules {
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
+  }
+
+  .Schedules > img:first-child {
+    margin-bottom: 40px;
   }
 }
 

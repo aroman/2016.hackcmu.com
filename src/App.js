@@ -146,6 +146,10 @@ class App extends Component {
           <div className="Section-text">$0. The entire event is free for students, including food, energy drinks, and lots of swag. Sponsorship for this event is made possible by the contributions of our corporate sponsors.</div>
           <div className="Section-subtitle">I’m not a “hacker”, can I still participate?</div>
           <div className="Section-text">Students of all skill levels are encouraged to attend, even if you’ve never written a line of code! Creative individuals of all kinds are welcome to apply — such as designers, ECE majors, statistics, etc. The only requirement is your attitude to learn!</div>
+          <div className="Section-subtitle">Are there teams? Do I need one to sign up!</div>
+          <div className="Section-text">Working as a team is <em>highly</em> encouraged, but not required. You are welcome to form teams ahead of the event, but there will also be team forming day-of the event!</div>
+          <div className="Section-subtitle">What are the rules? Can I work on my project ahead of time?</div>
+          <div className="Section-text">Specific rules are TBD, but in short: all work must be original, and you are not permitted to start building or designing your project until the event. Brainstorming ideas and forming teams beforehand is fine, though.</div>
           <div className="Section-subtitle">You didn’t answer my question!</div>
           <div className="Section-text">Well, that isn’t a question. But if you have any questions on concerns not covered here, please contact alrao@andrew or aromanof@andrew.</div>
         </div>

@@ -98,7 +98,7 @@ a {
 }
 
 .cta-subtitle {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: #00A79D;
   margin-top: 10px;
   font-size: 40px;
@@ -146,6 +146,7 @@ a {
   margin-left: 12.5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   display: block;
+  margin-top: 20px;
 }
 
 .cta-buttons {
@@ -285,8 +286,6 @@ a {
     /*justify-content: flex-start;*/
   }
 }
-
-
 
 .Footer-2 {
   font-weight: 400;

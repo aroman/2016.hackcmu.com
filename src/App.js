@@ -97,8 +97,8 @@ class App extends Component {
               <a className="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyubcIDT4VN__oaFUOCJFCcytlFv818l6Woqpjim__-GwSEA/viewform?c=0&w=1">Mentor sign-up</a>
             </div>
             <div className="btn-container">
-              <a className="btn btn-disabled" href="#">Hacker sign-up</a>
-              <div className="btn-caption">begins Wed 9/7 at 8 pm</div>
+              <a className="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScSX5pQFz4iYA5blZAl2L0pJ9H3b2fBbWSs_ucE9pGXw78H6w/viewform?c=0&w=1">Hacker sign-up</a>
+              <div className="btn-caption">ends Sat 9/10 at 11:59 pm</div>
             </div>
           </div>
         </div>

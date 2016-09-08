@@ -155,7 +155,7 @@ class App extends Component {
           <div className="Section-subtitle">What are the rules? Can I work on my project ahead of time?</div>
           <div className="Section-text">Specific rules are TBD, but in short: all work must be original, and you are not permitted to start building or designing your project until the event. Brainstorming ideas and forming teams beforehand is fine, though.</div>
           <div className="Section-subtitle">You didn’t answer my question!</div>
-          <div className="Section-text">Well, that isn’t a question. But if you have any questions on concerns not covered here, please contact alrao@andrew or aromanof@andrew.</div>
+          <div className="Section-text">Well, that isn’t a question. But if you have any questions on concerns not covered here, please send an email to alrao[at]andrew.cmu.edu or aromanof[at]andrew.cmu.edu</div>
         </div>
         <div className="Spacer"/>
         <div className="Footer">

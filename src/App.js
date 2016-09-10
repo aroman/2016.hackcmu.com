@@ -8,14 +8,14 @@ import Saturday from './saturday.png'
 import IMC from './sponsors/imc.svg'
 import Google from './sponsors/google.svg'
 import GoldmanSachs from './sponsors/goldman-sachs.svg'
-import Dropbox from './sponsors/dropbox.svg'
 import Salesforce from './sponsors/salesforce.svg'
+import Microsoft from './sponsors/microsoft.svg'
 
 import IMCColor from './sponsors/imc-color.png'
 import GoogleColor from './sponsors/google-color.svg'
 import GoldmanSachsColor from './sponsors/goldman-sachs-color.svg'
-import DropboxColor from './sponsors/dropbox-color.svg'
 import SalesforceColor from './sponsors/salesforce-color.svg'
+import MicrosoftColor from './sponsors/microsoft-color.svg'
 
 class SponsorLogo extends Component {
 
@@ -132,7 +132,7 @@ class App extends Component {
           <a name="sponsors"></a>
           <div className="Section-title">Sponsors</div>
           <div className="Logos">
-            <SponsorLogo color={DropboxColor} bw={Dropbox} alt='Dropbox'/>
+            <SponsorLogo color={MicrosoftColor} bw={Microsoft} alt='Microsoft'/>
             <SponsorLogo color={SalesforceColor} bw={Salesforce} alt='Salesforce'/>
             <SponsorLogo color={GoldmanSachsColor} bw={GoldmanSachs} alt='Goldman Sachs'/>
             <SponsorLogo color={GoogleColor} bw={Google} alt='Google'/>
@@ -146,6 +146,7 @@ class App extends Component {
           <div className="Section-text">HackCMU is a 24-hour event where students from across campus come together to make something awesome — like an app, website or hardware hack.</div>
           <div className="Section-subtitle">Who can attend?</div>
           <div className="Section-text">Any current undergrad at Carnegie Mellon is welcome to apply. HackCMU is a beginner-focused hackathon, and preference will be given to freshmen and female applicants. More experienced hackers are encouraged to sign up as mentors.</div>
+          {/* <div className="Section-subtitle">I have another event during the weekend — can I miss part of the event?</div> */}
           <div className="Section-subtitle">How much does this cost?</div>
           <div className="Section-text">$0. The entire event is free for students, including food, energy drinks, and lots of swag. Sponsorship for this event is made possible by the contributions of our corporate sponsors.</div>
           <div className="Section-subtitle">I’m not a “hacker”, can I still participate?</div>

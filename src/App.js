@@ -8,14 +8,18 @@ import Saturday from './saturday.png'
 import IMC from './sponsors/imc.svg'
 import Google from './sponsors/google.svg'
 import GoldmanSachs from './sponsors/goldman-sachs.svg'
-import Salesforce from './sponsors/salesforce.svg'
 import Microsoft from './sponsors/microsoft.svg'
+import Allston from './sponsors/allston.jpg'
+import Duo from './sponsors/duo.png'
+import Pinterest from './sponsors/pinterest.svg'
 
 import IMCColor from './sponsors/imc-color.png'
 import GoogleColor from './sponsors/google-color.svg'
 import GoldmanSachsColor from './sponsors/goldman-sachs-color.svg'
-import SalesforceColor from './sponsors/salesforce-color.svg'
 import MicrosoftColor from './sponsors/microsoft-color.svg'
+import AllstonColor from './sponsors/allston-color.jpg'
+import DuoColor from './sponsors/duo-color.png'
+import PinterestColor from './sponsors/pinterest-color.svg'
 
 class SponsorLogo extends Component {
 
@@ -29,6 +33,7 @@ class SponsorLogo extends Component {
   render() {
     return (
       <img
+      className='SponsorLogo'
       alt={this.props.alt}
       onMouseEnter={() => this.setState({currentSrc: this.props.color})}
       onMouseLeave={() => this.setState({currentSrc: this.props.bw})}
@@ -133,9 +138,11 @@ class App extends Component {
           <div className="Section-title">Sponsors</div>
           <div className="Logos">
             <SponsorLogo color={MicrosoftColor} bw={Microsoft} alt='Microsoft'/>
-            <SponsorLogo color={SalesforceColor} bw={Salesforce} alt='Salesforce'/>
-            <SponsorLogo color={GoldmanSachsColor} bw={GoldmanSachs} alt='Goldman Sachs'/>
             <SponsorLogo color={GoogleColor} bw={Google} alt='Google'/>
+            <SponsorLogo color={GoldmanSachsColor} bw={GoldmanSachs} alt='Goldman Sachs'/>
+            <SponsorLogo color={AllstonColor} bw={Allston} alt='Allston Trading'/>
+            <SponsorLogo color={PinterestColor} bw={Pinterest} alt='Pinterest'/>
+            <SponsorLogo color={DuoColor} bw={Duo} alt='Duo Security'/>
             <SponsorLogo color={IMCColor} bw={IMC} alt='IMC'/>
           </div>
         </div>

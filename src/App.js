@@ -153,7 +153,8 @@ class App extends Component {
           <div className="Section-text">HackCMU is a 24-hour event where students from across campus come together to make something awesome — like an app, website or hardware hack.</div>
           <div className="Section-subtitle">Who can attend?</div>
           <div className="Section-text">Any current undergrad at Carnegie Mellon is welcome to apply. HackCMU is a beginner-focused hackathon, and preference will be given to freshmen and female applicants. More experienced hackers are encouraged to sign up as mentors.</div>
-          {/* <div className="Section-subtitle">I have another event during the weekend — can I miss part of the event?</div> */}
+          <div className="Section-subtitle">I have another event during the weekend (such as FMR) — can I miss part of the event?</div>
+          <div className="Section-text">If you need to, probably. If you have specific concerns, please send an email to alrao[at]andrew.cmu.edu or aromanof[at]andrew.cmu.edu.</div>
           <div className="Section-subtitle">How much does this cost?</div>
           <div className="Section-text">$0. The entire event is free for students, including food, energy drinks, and lots of swag. Sponsorship for this event is made possible by the contributions of our corporate sponsors.</div>
           <div className="Section-subtitle">I’m not a “hacker”, can I still participate?</div>

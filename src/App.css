@@ -307,7 +307,6 @@ a {
   width: 405px;
   height: 268px;
   max-width: 90%;
-  max-height: auto;
 }
 
 @media (max-width: 1000px) {
@@ -353,5 +352,5 @@ a {
 }
 
 .SponsorLogo {
-  height: 90px;
+  height: 70px;
 }

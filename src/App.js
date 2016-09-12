@@ -12,6 +12,9 @@ import Microsoft from './sponsors/microsoft.svg'
 import Allston from './sponsors/allston.jpg'
 import Duo from './sponsors/duo.png'
 import Pinterest from './sponsors/pinterest.svg'
+import Bloomberg from './sponsors/bloomberg.svg'
+import APT from './sponsors/apt.png'
+import Union from './sponsors/union.svg'
 
 import IMCColor from './sponsors/imc-color.png'
 import GoogleColor from './sponsors/google-color.svg'
@@ -20,6 +23,7 @@ import MicrosoftColor from './sponsors/microsoft-color.svg'
 import AllstonColor from './sponsors/allston-color.jpg'
 import DuoColor from './sponsors/duo-color.png'
 import PinterestColor from './sponsors/pinterest-color.svg'
+import UnionColor from './sponsors/union-color.svg'
 
 class SponsorLogo extends Component {
 
@@ -140,8 +144,11 @@ class App extends Component {
             <SponsorLogo color={MicrosoftColor} bw={Microsoft} alt='Microsoft'/>
             <SponsorLogo color={GoogleColor} bw={Google} alt='Google'/>
             <SponsorLogo color={GoldmanSachsColor} bw={GoldmanSachs} alt='Goldman Sachs'/>
+            <SponsorLogo color={Bloomberg} bw={Bloomberg} alt='Bloomberg'/>
+            <SponsorLogo color={UnionColor} bw={Union} alt='Union Pacific'/>
             <SponsorLogo color={AllstonColor} bw={Allston} alt='Allston Trading'/>
             <SponsorLogo color={PinterestColor} bw={Pinterest} alt='Pinterest'/>
+            <SponsorLogo color={APT} bw={APT} alt='APT'/>
             <SponsorLogo color={DuoColor} bw={Duo} alt='Duo Security'/>
             <SponsorLogo color={IMCColor} bw={IMC} alt='IMC'/>
           </div>

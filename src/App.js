@@ -158,6 +158,8 @@ class App extends Component {
           <div className="Section-title">F.A.Q.</div>
           <div className="Section-subtitle">What is HackCMU?</div>
           <div className="Section-text">HackCMU is a 24-hour event where students from across campus come together to make something awesome — like an app, website or hardware hack.</div>
+          <div className="Section-subtitle">Where will this be held?</div>
+          <div className="Section-text">At the Gates Center for Computer Science. Opening and closing ceremonies will take place at Rashid Auditorum.</div>
           <div className="Section-subtitle">Who can attend?</div>
           <div className="Section-text">Any current undergrad at Carnegie Mellon is welcome to apply. HackCMU is a beginner-focused hackathon, and preference will be given to freshmen and female applicants. More experienced hackers are encouraged to sign up as mentors.</div>
           <div className="Section-subtitle">I have another event during the weekend (such as FMR) — can I miss part of the event?</div>

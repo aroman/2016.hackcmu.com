@@ -103,15 +103,10 @@ class App extends Component {
           </div>
           <div className="cta-buttons">
             <div className="btn-container">
-              <a className="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyubcIDT4VN__oaFUOCJFCcytlFv818l6Woqpjim__-GwSEA/viewform?c=0&w=1">Mentor sign-up</a>
+              <a className="btn" target="_blank" href="/slides.pdf">Opening slide deck</a>
             </div>
             <div className="btn-container">
-              <a className="btn btn-disabled" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScSX5pQFz4iYA5blZAl2L0pJ9H3b2fBbWSs_ucE9pGXw78H6w/viewform?c=0&w=1">Individual sign-up</a>
-              <div className="btn-caption">ended 9/13 at 11:59 pm</div>
-            </div>
-            <div className="btn-container">
-              <a className="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfCSynYcGK8yegdc6-sf5mVNk0flWCcWSuurQGib6psuCzV4Q/viewform?c=0&w=1">Waitlist</a>
-              <div className="btn-caption"></div>
+              <a className="btn" target="_blank" href="http://ship.hackcmu.com">Submit project</a>
             </div>
           </div>
         </div>

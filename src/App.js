@@ -107,6 +107,11 @@ class App extends Component {
             </div>
             <div className="btn-container">
               <a className="btn" target="_blank" href="http://ship.hackcmu.com">Submit project</a>
+              <div className="btn-caption">DUE at 7:30 pm!!</div>
+            </div>
+            <div className="btn-container">
+              <a className="btn" target="_blank" href="https://docs.google.com/spreadsheets/d/1zkoj-FJ5-5tTFIEKJktPZ-hNtHfqJwBfR0ekYVAmf5s/edit#gid=0">View available mentors</a>
+              <div className="btn-caption">mentor chatbot coming soon!</div>
             </div>
           </div>
         </div>

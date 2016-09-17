@@ -102,16 +102,24 @@ class App extends Component {
             <div className="cta-subtitle">September 16–17</div>
           </div>
           <div className="cta-buttons">
-            <div className="btn-container">
-              <a className="btn" target="_blank" href="/slides.pdf">Opening slide deck</a>
+            <div className="cta-buttons-row">
+              <div className="btn-container">
+                <a className="btn" target="_blank" href="/slides.pdf">Keynote slides</a>
+              </div>
+              <div className="btn-container">
+                <a className="btn" target="_blank" href="http://ship.hackcmu.com">Submit hack</a>
+                <div className="btn-caption">DUE at 7:30 pm!!</div>
+              </div>
             </div>
-            <div className="btn-container">
-              <a className="btn" target="_blank" href="http://ship.hackcmu.com">Submit project</a>
-              <div className="btn-caption">DUE at 7:30 pm!!</div>
-            </div>
-            <div className="btn-container">
-              <a className="btn" target="_blank" href="https://docs.google.com/spreadsheets/d/1zkoj-FJ5-5tTFIEKJktPZ-hNtHfqJwBfR0ekYVAmf5s/edit#gid=0">View available mentors</a>
-              <div className="btn-caption">mentor chatbot coming soon!</div>
+            <div className="cta-buttons-row">
+              <div className="btn-container" style={{width:'300px'}}>
+                <a className="btn" target="_blank" href="https://www.facebook.com/hackcmumentors16">Mentor chat bot</a>
+                <div className="btn-caption">Facebook bot to search mentors by skill!</div>
+              </div>
+              <div className="btn-container">
+                <a className="btn" target="_blank" href="https://docs.google.com/spreadsheets/d/1zkoj-FJ5-5tTFIEKJktPZ-hNtHfqJwBfR0ekYVAmf5s/edit#gid=0">Mentor list</a>
+                <div className="btn-caption">Try the chat bot!</div>
+              </div>
             </div>
           </div>
         </div>

@@ -151,6 +151,13 @@ a {
 
 .cta-buttons {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta-buttons-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .cta-buttons a {
@@ -199,7 +206,7 @@ a {
     font-size: 28px;
   }
 
-  .cta-buttons {
+  .cta-buttons-row {
     flex-direction: column;
   }
 

@@ -104,21 +104,13 @@ class App extends Component {
           <div className="cta-buttons">
             <div className="cta-buttons-row">
               <div className="btn-container">
-                <a className="btn" target="_blank" href="/slides.pdf">Keynote slides</a>
+                <a className="btn" target="_blank" href="https://www.dropbox.com/request/eWqEI2sfAc1sfNJzBxc4">Share pictures</a>
               </div>
               <div className="btn-container">
-                <a className="btn" target="_blank" href="http://ship.hackcmu.com">Submit hack</a>
-                <div className="btn-caption">DUE at 7:30 pm!!</div>
-              </div>
-            </div>
-            <div className="cta-buttons-row">
-              <div className="btn-container" style={{width:'300px'}}>
-                <a className="btn" target="_blank" href="https://www.facebook.com/hackcmumentors16">Mentor chat bot</a>
-                <div className="btn-caption">Facebook bot to search mentors by skill!</div>
+                <a className="btn" target="_blank" href="http://hackcmu-2016.devpost.com/submissions">Project gallery</a>
               </div>
               <div className="btn-container">
-                <a className="btn" target="_blank" href="https://docs.google.com/spreadsheets/d/1zkoj-FJ5-5tTFIEKJktPZ-hNtHfqJwBfR0ekYVAmf5s/edit#gid=0">Mentor list</a>
-                <div className="btn-caption">Try the chat bot!</div>
+                <a className="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc0gJzAmZRIZLY89euhGYGpX4DPpKZoDMfTdddtIKQx6-MLiA/viewform">Give feedback</a>
               </div>
             </div>
           </div>
